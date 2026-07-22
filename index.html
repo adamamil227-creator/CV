@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV Professionnel | Création de CV sur mesure</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Cairo',sans-serif;
+    background:#f5f7fa;
+    color:#333;
+    text-align: left;
+}
+
+header{
+    background:linear-gradient(135deg,#0f172a,#2563eb);
+    color:white;
+    padding:80px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:2.3rem;
+    margin-bottom:15px;
+}
+
+header p{
+    font-size:1.2rem;
+    opacity:0.9;
+}
+
+.container{
+    max-width:950px;
+    margin:-40px auto 40px;
+    background:white;
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+.stats-badge {
+    background: #10b981;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+h2{
+    color:#1e3a8a;
+    margin:35px 0 15px;
+    border-bottom: 2px solid #eff6ff;
+    padding-bottom: 8px;
+}
+
+.features{
+    list-style:none;
+}
+
+.features li{
+    background:#f8fafc;
+    padding:15px;
+    margin:10px 0;
+    border-radius:10px;
+    border-left:4px solid #2563eb;
+}
+
+/* Pricing Cards */
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.price-card {
+    background: #f8fafc;
+    border: 2px solid #e2e8f0;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.price-card.featured {
+    border-color: #2563eb;
+    background: #eff6ff;
+    transform: scale(1.03);
+}
+
+.price-card h3 {
+    color: #1e3a8a;
+    margin-bottom: 10px;
+}
+
+.price-tag {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ef4444;
+    margin: 15px 0;
+}
+
+/* Before / After Section */
+.comparison-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.comparison-box {
+    background: #fff;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.comparison-box.before { border-top: 4px solid #ef4444; }
+.comparison-box.after { border-top: 4px solid #10b981; }
+
+.img-placeholder {
+    background: #e2e8f0;
+    height: 180px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #64748b;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+/* Testimonials */
+.testimonial {
+    background: #f8fafc;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-style: italic;
+    color: #475569;
+}
+
+.cta{
+    text-align:center;
+    margin-top:40px;
+}
+
+.btn{
+    display:inline-block;
+    background:#25D366;
+    color:white;
+    padding:15px 40px;
+    border-radius:50px;
+    text-decoration:none;
+    font-size:19px;
+    font-weight:bold;
+    transition:0.3s;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+    background:#1da851;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="stats-badge">🔥 +100 CVs réalisés avec succès</div>
+    <h1>Obtenez un CV Professionnel qui Ouvre Toutes les Portes</h1>
+    <p>Un design moderne et optimisé pour maximiser vos chances auprès des recruteurs.</p>
+</header>
+
+<div class="container">
+
+    <h2>Pourquoi choisir notre service ?</h2>
+    <ul class="features">
+        <li>✅ Design moderne et percutant.</li>
+        <li>✅ Correction des fautes de grammaire et mise en valeur du parcours.</li>
+        <li>✅ Livraison rapide en format PDF prêt à l'emploi.</li>
+        <li>✅ Optimisation pour passer les filtres automatiques (ATS).</li>
+    </ul>
+
+    <h2>Nos Formules & Tarifs</h2>
+    <div class="pricing-grid">
+        <div class="price-card">
+            <h3>Pack Standard</h3>
+            <p>CV Classique & Pro</p>
+            <div class="price-tag">4 $</div>
+            <p style="font-size: 0.9rem; color: #64748b;">Idéal pour une mise à jour rapide et propre.</p>
+        </div>
+
+        <div class="price-card featured">
+            <h3>Pack Premium</h3>
+            <p>CV Pro + Design Avancé</p>
+            <div class="price-tag">8 $</div>
+            <p style="font-size: 0.9rem; color: #64748b;">Le plus demandé pour booster votre profil.</p>
+        </div>
+
+        <div class="price-card">
+            <h3>Pack Expert</h3>
+            <p>CV + Lettre de Motivation</p>
+            <div class="price-tag">12 $</div>
+            <p style="font-size: 0.9rem; color: #64748b;">Solution complète pour candidatures solides.</p>
+        </div>
+    </div>
+
+    <h2>Aperçu : Avant / Après</h2>
+    <div class="comparison-grid">
+        <div class="comparison-box before">
+            <h3>❌ Avant (Basique)</h3>
+            <div class="img-placeholder">[ Image / Modèle de votre ancien CV ]</div>
+        </div>
+        <div class="comparison-box after">
+            <h3>✅ Après (Professionnel)</h3>
+            <div class="img-placeholder">[ Image / Modèle du nouveau CV Pro ]</div>
+        </div>
+    </div>
+
+    <h2>Ce que disent nos clients</h2>
+    <div class="testimonial">
+        "Grâce au nouveau CV, j'ai enfin décroché plusieurs entretiens. Service rapide et professionnel !" – <strong>Karim M.</strong>
+    </div>
+    <div class="testimonial">
+        "Franchement, un travail propre pour seulement 4 dollars, ça vaut largement le détour." – <strong>Yassine B.</strong>
+    </div>
+
+    <h2>Comment commander ?</h2>
+    <p style="margin-bottom: 20px;">
+        Envoyez-moi vos informations actuelles directement sur WhatsApp. Je m'occupe de structurer et de concevoir votre CV selon vos objectifs professionnels.
+    </p>
+
+    <div class="cta">
+        <a href="https://wa.me/212606799330" class="btn">
+            Commander via WhatsApp
+        </a>
+    </div>
+
+</div>
+
+<footer>
+    Tous droits réservés © 2026
+</footer>
+
+</body>
+</html>
